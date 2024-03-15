@@ -1,0 +1,12 @@
+#modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 5%;
+  top: 5%;
+  width: 90%;
+  height: 50%;
+  overflow: auto;
+  border: solid black;
+  text-align: center;
+  background: lightcyan;
+}
