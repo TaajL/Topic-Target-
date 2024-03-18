@@ -11,6 +11,7 @@
   height: 50%;
   overflow: auto;
   border: solid black;
+  border-radius: 10px;
   text-align: center;
   font-weight: bolder;
   font-size: larger;
