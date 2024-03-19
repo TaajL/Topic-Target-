@@ -49,6 +49,19 @@ button {
  font-weight: 900;
  color:crimson;
  margin-right: 125px;
-
   }
 
+  h3#list-all {
+  font-size: xx-large;
+  margin-left: 25px;
+  margin-top: 50px;
+  }
+
+  h1, #titlePage {
+  text-align: center;
+  
+  }
+
+  h1 {
+  color:mediumblue
+  }
