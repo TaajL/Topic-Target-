@@ -34,4 +34,12 @@ button {
   background-color:darkviolet;
   }
 
+  #resultBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  margin-left: auto;
+  }
 
