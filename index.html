@@ -14,30 +14,39 @@
 
     <main>
 
-        <aside>
+        <aside id="titlePage">
             <h2>Search Topic:</h2>
-            <input type="text" placeholder="Enter Your Topic">
-            <button id="seach-button">Search</button>
+            <input type="text" id="userInput" placeholder="Enter Your Topic">
+            <button id="search-button">Search</button>
             <hr>
             <div id="search-history"></div>
         </aside>
 
         <section>
             <div>
-                <h3>Search Results</h3>
                 <h3 id="list-all"> Your List</h3>
+                <button id="delete-button">delete all</button>
             </div>
+            <section id="your-list">
+            </section>
+                
+        </section>
+            </div>
+            <h3 class="searchTitle">Search Results</h3>
             <section id="result-container">
-
+                <div id="resultBox">
+                </div>
             </section>
         </section>
 
         
             <section id="modal">
                 <p>Welcome to Topic Target! 
-                <br>Enter your topic 
-                <br>and see the results to the right. 
-                <br>Add to list  for future viewing if desired</p>
+                    <br>
+                <br>Enter your topic and
+                <br>view the results to the right
+                 <br>
+                <br>Add to list for future viewing if desired</p>
                 <button id="start-search">Start Search</button>
             </section>
         

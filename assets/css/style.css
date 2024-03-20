@@ -1,3 +1,7 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #modal {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -7,8 +11,68 @@
   height: 50%;
   overflow: auto;
   border: solid black;
+  border-radius: 10px;
   text-align: center;
+  font-weight: bolder;
+  font-size: larger;
   background: lightcyan;
 }
 
+button {
+  display: inline-block;
+  cursor: pointer;
+  color: azure;
+  background-color:blue;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 8px;
+  border: 0;
+  
+  }
+  
+  button:hover {
+  background-color:darkviolet;
+  }
 
+  #delete-button {
+    display: inline-block;
+    cursor: pointer;
+    color: azure;
+    background-color: red;
+    border-radius: 6px;
+    margin-left: 50px;
+    padding: 8px;
+
+  }
+
+  #resultBox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  margin-left: auto;
+  }
+
+  h3.searchTitle{
+ text-align: right;
+ font-size: xx-large;
+ font-weight: 900;
+ color:crimson;
+ margin-right: 125px;
+  }
+
+  h3#list-all {
+  font-size: xx-large;
+  margin-left: 25px;
+  margin-top: 50px;
+  }
+
+  h1, #titlePage {
+  text-align: center;
+  
+  }
+
+  h1 {
+  color:mediumblue
+  }
