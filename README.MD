@@ -1,7 +1,7 @@
 ## Topic Target
 
 # Description:
-Search for topics and grt results with corresponding videos and articles. Ability to save it to youjr list for viewing at a later time if desired. 
+Search for topics and get results with corresponding videos and articles displayed on page. Ability to save it to your list for viewing at a later time if desired. 
 
 # Screenshot:
 
