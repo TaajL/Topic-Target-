@@ -15,16 +15,13 @@ function search() {
 fetch(`https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${wikiSearch}&utf8=&format=json`)
   .then(response => response.json())
   .then(data => {
-    const searchResults = data.query.search;
-    let resultList = '';
+    
 
-    searchResults.forEach(item =>{
-      resultList += `<li><a href="https://en.wikipedia.org/?curid=${item.pageid}" target="_blank`
     })
-  })
-
-
-
-
 }
+
+
+
+
+
 
