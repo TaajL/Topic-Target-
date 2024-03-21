@@ -77,8 +77,8 @@ function fetchYoutubeApis(searchInput) {
 
         let wikiTitleEl = document.createElement('h4');
         let wikiIdEl = document.createElement('a');
-        
-        let addListBtn = document.createElement('button');
+        let addYtListBtn = document.createElement('button');
+        let addWikiListBtn = document.createElement('button');
         
         let ytTitle = data[0].items[i].snippet.title;
         let ytThumbnail = data[0].items[i].snippet.thumbnails.high.url;
@@ -87,7 +87,7 @@ function fetchYoutubeApis(searchInput) {
         let wikiId = data[1].query.search[i].pageid;
         
         
-        ytTitleEl.textcontent = ytTitle;
+        ytTitleEl.textContent = ytTitle;
         ytThumbnailEl.src = ytThumbnail;
         youtubeIdEl.href = `https://www.youtube.com/watch?v=${youtubeId}`
 
@@ -95,12 +95,14 @@ function fetchYoutubeApis(searchInput) {
         wikiIdEl.href = `http://www.wikipedia.org/?curid=${wikiId}`;
         wikiIdEl.textContent = `http://www.wikipedia.org/?curid=${wikiId}`;
 
-        addListBtn.textContent = 'Save to List';
+        addYtListBtn.textContent = 'Save to List';
+        addWikiListBtn.textContent = 'Save to List';
 
-        ytResultBox.append(ytTitleEl, youtubeIdEl, addListBtn);
+        ytResultBox.append(ytTitleEl, youtubeIdEl);
         youtubeIdEl.append(ytThumbnailEl);
-        wkResultBox.append(wikiTitleEl, wikiIdEl, addListBtn);
-        console.log(ytTitle);
+        ytResultBox.append(addYtListBtn);
+        wkResultBox.append(wikiTitleEl, wikiIdEl, addWikiListBtn);
+        // console.log(ytTitle);
         // console.log(wikiTitle);
         
       }
