@@ -47,7 +47,14 @@ function fetchYoutubeApis(searchInput) {
 };
 
 function displayResults(data) {
-  console.log(data[0], data[1]);
+  //for (let i = 0; i < data.length; i++);
+    let ytTitle = data[0].items[0].snippet.title;
+    let ytThumbnail = data[0].items[0].snippet.thumbnails.high.url;
+    console.log(ytTitle);
+    console.log(ytThumbnail);
+    console.log(data[0], data[1]);
+    // http://en.wikipedia.org/?curid=
+    
 }
 
 
