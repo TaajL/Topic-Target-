@@ -19,7 +19,6 @@
 }
 
 button {
-  display: inline-block;
   cursor: pointer;
   color: azure;
   background-color:blue;
@@ -35,7 +34,6 @@ button {
   }
 
   #delete-button {
-    display: inline-block;
     cursor: pointer;
     color: azure;
     background-color: red;
@@ -76,3 +74,11 @@ button {
   h1 {
   color:mediumblue
   }
+
+.buttons {
+  display: inline;
+}
+
+#returnToSearchBtn {
+margin-left: 480px;
+}
