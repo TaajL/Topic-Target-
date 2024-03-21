@@ -72,6 +72,7 @@ function fetchYoutubeApis(searchInput) {
       for (let i = 0; i < 10; i++) {
         // let cardIndex = i;
         let ytTitleEl = document.createElement('p');
+        let youtubeIdEl = document.createElement('a');
         let ytThumbnailEl = document.createElement('img');
 
         let wikiTitleEl = document.createElement('h4');
@@ -81,13 +82,14 @@ function fetchYoutubeApis(searchInput) {
         
         let ytTitle = data[0].items[i].snippet.title;
         let ytThumbnail = data[0].items[i].snippet.thumbnails.high.url;
-
+        let youtubeId = data[0].items[i].id.videoId;
         let wikiTitle = data[1].query.search[i].title;
         let wikiId = data[1].query.search[i].pageid;
         
         
         ytTitleEl.textcontent = ytTitle;
         ytThumbnailEl.src = ytThumbnail;
+        youtubeIdEl.href = `https://www.youtube.com/watch?v=${youtubeId}`
 
         wikiTitleEl.textContent = wikiTitle;
         wikiIdEl.href = `http://www.wikipedia.org/?curid=${wikiId}`;
@@ -95,7 +97,8 @@ function fetchYoutubeApis(searchInput) {
 
         addListBtn.textContent = 'Save to List';
 
-        ytResultBox.append(ytTitleEl, ytThumbnailEl, addListBtn);
+        ytResultBox.append(ytTitleEl, youtubeIdEl, addListBtn);
+        youtubeIdEl.append(ytThumbnailEl);
         wkResultBox.append(wikiTitleEl, wikiIdEl, addListBtn);
         console.log(ytTitle);
         // console.log(wikiTitle);
