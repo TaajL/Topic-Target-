@@ -59,7 +59,7 @@ function displayResults(data) {
 
 
 
-
+let DeleteBtn = document.getElementById('delete-button');
 DeleteBtn.addEventListener('click', deleteAll);
 
 function deleteAll(){
