@@ -99,3 +99,7 @@ h3.searchTitle1{
    h3 {
     display: inline-block;
   }
+
+  #seeList-button {
+    margin-left: 575px;
+  }
