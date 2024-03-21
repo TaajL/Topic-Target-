@@ -52,8 +52,8 @@ button {
   #wikiResultBox {
   display: flex;
   flex-wrap: wrap;
-  width: 500px;
-  height: 500px;
+  width: fit-content;
+  height: fit-content;
   border: 5px solid black;
   }
 
