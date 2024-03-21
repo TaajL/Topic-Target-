@@ -42,6 +42,11 @@ button {
     padding: 8px;
 
   }
+ #result-container {
+  display: inline-flex;
+  gap: 165px;
+
+ }
 
   #resultBox {
   display: flex;
@@ -49,7 +54,6 @@ button {
   width: 500px;
   height: 500px;
   border: 5px solid black;
-  margin-left: auto;
   }
 
   h3.searchTitle{
@@ -58,6 +62,7 @@ button {
  font-weight: 900;
  color:crimson;
  margin-right: 125px;
+ margin-left: 120px;
   }
 
   h3#list-all {
@@ -82,3 +87,15 @@ button {
 #returnToSearchBtn {
 margin-left: 480px;
 }
+
+h3.searchTitle1{
+  text-align: right;
+  font-size: xx-large;
+  font-weight: 900;
+  color:crimson;
+  margin-left: 510px;
+   }
+
+   h3 {
+    display: inline-block;
+  }
