@@ -71,13 +71,13 @@ function fetchYoutubeApis(searchInput) {
     } else {
       for (let i = 0; i < 10; i++) {
         // let cardIndex = i;
-        let ytTitleEl = document.createElement('p');
+        let ytTitleEl = document.createElement('h4');
         let youtubeIdEl = document.createElement('a');
         let ytThumbnailEl = document.createElement('img');
+        let addYtListBtn = document.createElement('button');
 
         let wikiTitleEl = document.createElement('h4');
         let wikiIdEl = document.createElement('a');
-        let addYtListBtn = document.createElement('button');
         let addWikiListBtn = document.createElement('button');
         
         let ytTitle = data[0].items[i].snippet.title;
@@ -94,6 +94,7 @@ function fetchYoutubeApis(searchInput) {
         wikiTitleEl.textContent = wikiTitle;
         wikiIdEl.href = `http://www.wikipedia.org/?curid=${wikiId}`;
         wikiIdEl.textContent = `http://www.wikipedia.org/?curid=${wikiId}`;
+        // http://en.wikipedia.org/?curid=
 
         addYtListBtn.textContent = 'Save to List';
         addWikiListBtn.textContent = 'Save to List';
@@ -107,7 +108,6 @@ function fetchYoutubeApis(searchInput) {
         
       }
     }
-    // http://en.wikipedia.org/?curid=
     
 }
 
