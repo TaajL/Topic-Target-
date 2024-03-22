@@ -5,16 +5,18 @@ let returnBtn = document.getElementById('returnToSearchBtn');
 let ytResultBox = document.getElementById('youtubeResultBox');
 let wkResultBox = document.getElementById('wikiResultBox');
 
+
+const haveSeen = JSON.parse(localStorage.getItem('haveSeenModal'));
+if (!haveSeen) {
+  modalBox.style.display = 'block';
+}
+
 // close modal
 startSearchBtn.addEventListener('click', function() {
   modalBox.style.display = 'none';
+  localStorage.setItem('haveSeenModal', 'true');
 })
 
-// go back without modal pop up
-// returnBtn.onclick = function() {
-// location.href = './index.html';
-//   modalBox.style.display = 'none';
-// }
 
 // promise both output
 function search() {
@@ -122,10 +124,26 @@ function fetchYoutubeApis(searchInput) {
         addWikiListBtn.textContent = 'Save to List';
 
         addYtListBtn.addEventListener('click', function() {
+          const saveYtItems = localStorage.getItem('youtube');
+          const saveYtData = JSON.parse(saveYtItems);
+          if (saveYtData) {
+            saveYtData.push(data[0].items[i]);
+            localStorage.setItem('youtube', JSON.stringify(saveYtData));
+          } else {
+            localStorage.setItem('youtube', JSON.stringify([data[0].items[i]]));
+          }
           console.log(data[0].items[i]);
         })
 
         addWikiListBtn.addEventListener('click', function() {
+          const saveWkItems = localStorage.getItem('wiki');
+          const saveWkData = JSON.parse(saveWkItems);
+          if (saveWkData) {
+            saveWkData.push(data[1].query.search[i]);
+            localStorage.setItem('wiki', JSON.stringify(saveWkData));
+          } else {
+            localStorage.setItem('wiki', JSON.stringify([data[1].query.search[i]]));
+          }
           console.log(data[1].query.search[i]);
         })
 
