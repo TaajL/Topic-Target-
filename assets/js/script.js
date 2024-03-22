@@ -19,6 +19,8 @@ startSearchBtn.addEventListener('click', function() {
 // promise both output
 function search() {
   let searchInput = document.getElementById('userInput').value;
+  localStorage.setItem('searchInput', searchInput);
+
   const youtube = fetchYoutubeApis(searchInput);
   const wiki = fetchWikiapi(searchInput);
   Promise.all([youtube, wiki])
