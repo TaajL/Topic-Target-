@@ -55,6 +55,7 @@ button {
   width: fit-content;
   height: fit-content;
   border: 5px solid black;
+  padding: 1%;
   }
 
   h3.searchTitle{
@@ -102,5 +103,13 @@ h3.searchTitle1{
   }
 
   #seeList-button {
-    margin-left: 575px;
+    margin-left: 47%;
+  }
+
+  .card-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 1%;
   }

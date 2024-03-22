@@ -25,6 +25,12 @@ function search() {
     .then(data => {
       displayResults(data);
     })
+    .catch(function () {
+      Promise.all([fetchYoutubeBackup(), wiki])
+      .then(data => {
+        displayResults(data);
+      })
+    })
 }
 
 // call search function when click
@@ -51,7 +57,10 @@ function fetchYoutubeApis(searchInput) {
 
   return  fetch (youtubeUrl) 
     .then(function (response) {
-      return response.json();
+      if (response.status < 400) {
+        return response.json();
+      }
+      return youtubeBackupData;
     })
     .then(function (data) {
       
@@ -60,9 +69,18 @@ function fetchYoutubeApis(searchInput) {
     })
     .catch(function (error) {
       console.log('ERROR Unable to connect');
-      
     });
   };
+  
+  function fetchYoutubeBackup() {
+    return fetch('/assets/js/yt-data.json')
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      return data;
+    })
+  }
   
   // display both results
   function displayResults(data) {
@@ -70,7 +88,9 @@ function fetchYoutubeApis(searchInput) {
       console.log('No data found!');
     } else {
       for (let i = 0; i < 10; i++) {
-        // let cardIndex = i;
+        let youtubeCard = document.createElement('div');
+        let wikiCard = document.createElement('div');
+
         let ytTitleEl = document.createElement('h4');
         let youtubeIdEl = document.createElement('a');
         let ytThumbnailEl = document.createElement('img');
@@ -99,10 +119,23 @@ function fetchYoutubeApis(searchInput) {
         addYtListBtn.textContent = 'Save to List';
         addWikiListBtn.textContent = 'Save to List';
 
-        ytResultBox.append(ytTitleEl, youtubeIdEl);
+        addYtListBtn.addEventListener('click', function() {
+          console.log(data[0].items[i]);
+        })
+
+        addWikiListBtn.addEventListener('click', function() {
+          console.log(data[1].query.search[i]);
+        })
+
+        youtubeCard.classList.add('card-box');
+        wikiCard.classList.add('card-box');
+
+        ytResultBox.append(youtubeCard);
+        youtubeCard.append(ytTitleEl, youtubeIdEl);
         youtubeIdEl.append(ytThumbnailEl);
-        ytResultBox.append(addYtListBtn);
-        wkResultBox.append(wikiTitleEl, wikiIdEl, addWikiListBtn);
+        youtubeCard.append(addYtListBtn);
+        wkResultBox.append(wikiCard);
+        wikiCard.append(wikiTitleEl, wikiIdEl, addWikiListBtn);
         // console.log(ytTitle);
         // console.log(wikiTitle);
         
@@ -118,3 +151,4 @@ DeleteBtn.addEventListener('click', deleteAll);
 function deleteAll(){
   localStorage.clear();
 }
+
