@@ -5,6 +5,12 @@ Search for topics and get results with corresponding videos and articles display
 
 # Screenshot:
 
+![screenshot for links to more information](./assets/tt.png)
+
 # Link to Finished Application:
 
 # Credits:
+
+Fon Jiamjan
+Taaj Logan
+Katie Alford
