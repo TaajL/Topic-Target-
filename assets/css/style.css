@@ -39,6 +39,7 @@ button {
     color: azure;
     background-color: red;
     border-radius: 6px;
+    border: 2px solid black;
     margin-left: 50px;
     padding: 8px;
 
@@ -89,6 +90,7 @@ button {
 
 #returnToSearchBtn, #seeList-button {
 margin-left: 47%;
+border: 2px solid black;
 }
 
 .pics {
