@@ -1,7 +1,7 @@
 ## Topic Target
 
 # Description:
-Search for topics and get results with corresponding videos and articles displayed on page. Ability to save it to your list for viewing at a later time if desired. 
+A single page search engine that allowed the top ten results to be shown in article and video formats. Search for topics and get results with corresponding videos and articles displayed on page. Ability to save it to your list for viewing at a later time if desired. 
 
 # Usage:
 From looking up a recipe with corresponding videos to getting info for a book report or reading articles and seeing the latest video updates about your favorite celebrity, Topic Target does it all for you on a single page!
