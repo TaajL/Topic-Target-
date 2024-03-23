@@ -87,10 +87,13 @@ button {
   display: inline;
 }
 
-#returnToSearchBtn {
-margin-left: 480px;
+#returnToSearchBtn, #seeList-button {
+margin-left: 47%;
 }
 
+.pics {
+  margin-left: 30%;
+  }
 h3.searchTitle1{
   text-align: right;
   font-size: xx-large;
@@ -103,14 +106,14 @@ h3.searchTitle1{
     display: inline-block;
   }
 
-  #seeList-button {
-    margin-left: 47%;
-  }
-
   .card-box {
     display: flex;
     align-items: center;
     flex-direction: column;
     border: 2px solid black;
     margin: 1%;
+  }
+
+  h3 #list-all {
+align-items: center;
   }
