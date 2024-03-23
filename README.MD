@@ -14,3 +14,9 @@ Search for topics and get results with corresponding videos and articles display
 Fon Jiamjan
 Taaj Logan
 Katie Alford
+
+Pictures:
+Patrick Tomasso https://unsplash.com/photos/open-book-lot-Oaqk7qqNh_c
+Szabo Viktor https://unsplash.com/photos/youtube-website-screengrab-4QmSdCP4bhM
+Markus Winkler https://unsplash.com/photos/magnifying-glass-on-white-table-afW1hht0NSs
+
