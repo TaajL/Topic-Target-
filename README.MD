@@ -16,6 +16,11 @@ Search for a topic and get the top ten results from both Wikipedia and YouTube d
 
 # Link to Finished Application:
 
+# Technologies Used:
+Wikipedia API
+YouTube API
+Skeleton CSS
+
 # Credits:
 
 Fon Jiamjan
