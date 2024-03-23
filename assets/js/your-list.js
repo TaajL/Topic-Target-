@@ -22,6 +22,7 @@ function displayLists() {
     ytTitleEl.textContent = ytTitle;
     ytThumbnailEl.src = ytThumbnail;
     youtubeIdEl.href = `https://www.youtube.com/watch?v=${youtubeId}`;
+    youtubeIdEl.target = "_blank";
 
     ytBox.appendChild(youtubeCard);
     youtubeCard.append(ytTitleEl, youtubeIdEl);
@@ -37,8 +38,9 @@ function displayLists() {
     let wikiId = saveWkData[i].pageid;
 
     wikiTitleEl.textContent = wikiTitle;
-    wikiIdEl.href = `http://www.wikipedia.org/?curid=${wikiId}`;
-    wikiIdEl.textContent = `http://www.wikipedia.org/?curid=${wikiId}`;
+    wikiIdEl.href = `http://en.wikipedia.org/?curid=${wikiId}`;
+    wikiIdEl.textContent = `http://en.wikipedia.org/?curid=${wikiId}`;
+    wikiIdEl.target = "_blank";
 
     wkBox.appendChild(wikiCard);
     wikiCard.append(wikiTitleEl, wikiIdEl);
