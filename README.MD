@@ -5,7 +5,7 @@ Search for topics and get results with corresponding videos and articles display
 
 # Screenshot:
 
-![screenshot for links to more information](./assets/tt.png)
+![screenshot for links to more information](./assets/ttupdate.png)
 
 # Link to Finished Application:
 
