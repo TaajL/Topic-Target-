@@ -3,6 +3,11 @@
 # Description:
 Search for topics and get results with corresponding videos and articles displayed on page. Ability to save it to your list for viewing at a later time if desired. 
 
+# Usage:
+From looking up a recipe with corresponding videos to getting info for a book report or reading articles and seeing the latest video updates about your favorite celebrity, Topic Target does it all for you on a single page!
+
+Search for a topic and get the top ten results from both Wikipedia and YouTube displayed on the same page. No clicking back & forth between links, Ability to save to a favorites page for later viewing for each article and video result shown. 
+
 # Screenshots:
 
 ![screenshot for links to more information](./assets/ttupdate.png)
