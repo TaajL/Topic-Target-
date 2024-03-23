@@ -3,9 +3,11 @@
 # Description:
 Search for topics and get results with corresponding videos and articles displayed on page. Ability to save it to your list for viewing at a later time if desired. 
 
-# Screenshot:
+# Screenshots:
 
 ![screenshot for links to more information](./assets/ttupdate.png)
+<br>
+![screenshot for links to more information](./assets/saved%20list.png)
 
 # Link to Finished Application:
 
