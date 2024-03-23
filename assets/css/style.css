@@ -69,7 +69,8 @@ h3.searchTitle {
 
 h3#list-all {
   font-size: xx-large;
-  margin-left: 25px;
+  font-weight: bolder;
+  margin-left: 40%;
   margin-top: 50px;
 }
 
@@ -129,5 +130,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid black;
+  border: 4px solid black;
+  padding: 1%;
 }
+
