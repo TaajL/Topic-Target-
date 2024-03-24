@@ -22,7 +22,7 @@ Search for a topic and get the top ten results from both Wikipedia and YouTube d
 
 # Link to Finished Application:
 
-[Topic Target Website](https://taajl.github.io/Topic-Target-/index.html{:target="_blank"})
+[Topic Target Website](https://taajl.github.io/Topic-Target-/index.html){:target="\_blank"}.
 
 # Technologies Used:
 
@@ -39,10 +39,10 @@ Katie Alford
 Pictures:
 Patrick Tomasso<br/> https://unsplash.com/photos/open-book-lot-Oaqk7qqNh_c{:target="_blank"}
 <br/>
-Szabo Viktor<br/> https://unsplash.com/photos/youtube-website-screengrab-4QmSdCP4bhM{:target="_blank"}
+Szabo Viktor<br/> https://unsplash.com/photos/youtube-website-screengrab-4QmSdCP4bhM
 <br/>
-Markus Winkler<br/> https://unsplash.com/photos/magnifying-glass-on-white-table-afW1hht0NSs{:target="_blank"}
+Markus Winkler<br/> https://unsplash.com/photos/magnifying-glass-on-white-table-afW1hht0NSs
 <br/>
-Ashni Ahlawat<br/> https://unsplash.com/photos/a-cup-of-coffee-and-a-pair-of-glasses-on-a-newspaper-Wh9ZC4727e4{:target="_blank"}
+Ashni Ahlawat<br/> https://unsplash.com/photos/a-cup-of-coffee-and-a-pair-of-glasses-on-a-newspaper-Wh9ZC4727e4
 <br/>
-Christian Wiedigr<br/> https://unsplash.com/photos/youtube-application-screengrab-NmGzVG5Wsg8{:target="_blank"}
+Christian Wiedigr<br/> https://unsplash.com/photos/youtube-application-screengrab-NmGzVG5Wsg8
