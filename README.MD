@@ -12,35 +12,37 @@ Search for a topic and get the top ten results from both Wikipedia and YouTube d
 
 # Screenshots:
 
-![Topic Target Main Page](./assets/ttupdate.png)
-<br>
-![Topic Target Search List](./assets/ttsearch.png)
-<br>
-![Topic Target Your List Page](./assets/saved%20list.png)
-<br>
+![Topic Target Main Page](./assets/ttupdate.png)<br/>
+
+![Topic Target Search List](./assets/ttsearch.png)<br/>
+
+![Topic Target Your List Page](./assets/saved%20list.png)<br/>
+
 ![Topic Target Clear List](./assets/ttClearList.png)
 
 # Link to Finished Application:
 
+[Topic Target Website](https://taajl.github.io/Topic-Target-/index.html)
+
 # Technologies Used:
 
-Wikipedia API
-YouTube API
+Wikipedia API<br/>
+YouTube API<br/>
 Skeleton CSS
 
 # Credits:
 
-Fon Jiamjan
-Taaj Logan
+Fon Jiamjan <br/>
+Taaj Logan <br/>
 Katie Alford
 
 Pictures:
-Patrick Tomasso https://unsplash.com/photos/open-book-lot-Oaqk7qqNh_c <br>
-
-Szabo Viktor https://unsplash.com/photos/youtube-website-screengrab-4QmSdCP4bhM <br>
-
-Markus Winkler https://unsplash.com/photos/magnifying-glass-on-white-table-afW1hht0NSs <br>
-
-Ashni Ahlawat https://unsplash.com/photos/a-cup-of-coffee-and-a-pair-of-glasses-on-a-newspaper-Wh9ZC4727e4 <br>
-
+Patrick Tomasso https://unsplash.com/photos/open-book-lot-Oaqk7qqNh_c
+<br/>
+Szabo Viktor https://unsplash.com/photos/youtube-website-screengrab-4QmSdCP4bhM
+<br/>
+Markus Winkler https://unsplash.com/photos/magnifying-glass-on-white-table-afW1hht0NSs
+<br/>
+Ashni Ahlawat https://unsplash.com/photos/a-cup-of-coffee-and-a-pair-of-glasses-on-a-newspaper-Wh9ZC4727e4
+<br/>
 Christian Wiedigr https://unsplash.com/photos/youtube-application-screengrab-NmGzVG5Wsg8
