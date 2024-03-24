@@ -22,7 +22,7 @@ Search for a topic and get the top ten results from both Wikipedia and YouTube d
 
 # Link to Finished Application:
 
-[Topic Target Website](https://taajl.github.io/Topic-Target-/index.html){:target="\_blank"}.
+[Topic Target Website](https://taajl.github.io/Topic-Target-/index.html)
 
 # Technologies Used:
 
