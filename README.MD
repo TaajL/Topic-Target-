@@ -1,22 +1,29 @@
 ## Topic Target
 
 # Description:
-A single page search engine that allows the top ten results to be shown in article and video formats. Search for topics and get results with corresponding videos and articles displayed on page. Ability to save it to your list for viewing at a later time if desired. 
+
+A single page search engine that allows the top ten results to be shown in article and video formats. Search for topics and get results with corresponding videos and articles displayed on page. Ability to save it to your list for viewing at a later time if desired.
 
 # Usage:
+
 From looking up a recipe with corresponding videos to getting info for a book report or reading articles and seeing the latest video updates about your favorite celebrity, Topic Target does it all for you on a single page!
 
-Search for a topic and get the top ten results from both Wikipedia and YouTube displayed on the same page. No clicking back & forth between links, Ability to save to a favorites page for later viewing for each article and video result shown. 
+Search for a topic and get the top ten results from both Wikipedia and YouTube displayed on the same page. No clicking back & forth between links, Ability to save to a favorites page for later viewing for each article and video result shown.
 
 # Screenshots:
 
-![screenshot for links to more information](./assets/ttupdate.png)
+![Topic Target Main Page](./assets/ttupdate.png)
 <br>
-![screenshot for links to more information](./assets/saved%20list.png)
+![Topic Target Search List](./assets/ttsearch.png)
+<br>
+![Topic Target Your List Page](./assets/saved%20list.png)
+<br>
+![Topic Target Clear List](./assets/ttClearList.png)
 
 # Link to Finished Application:
 
 # Technologies Used:
+
 Wikipedia API
 YouTube API
 Skeleton CSS
@@ -37,5 +44,3 @@ Markus Winkler https://unsplash.com/photos/magnifying-glass-on-white-table-afW1h
 Ashni Ahlawat https://unsplash.com/photos/a-cup-of-coffee-and-a-pair-of-glasses-on-a-newspaper-Wh9ZC4727e4 <br>
 
 Christian Wiedigr https://unsplash.com/photos/youtube-application-screengrab-NmGzVG5Wsg8
-
-
