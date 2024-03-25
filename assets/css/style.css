@@ -131,8 +131,15 @@ button:hover {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+<<<<<<< HEAD
 #youtube-box,
 #wiki-box {
   display: flex;
   flex-direction: column;
+=======
+@media only screen and (max-width: 800px) {
+  .img-container {
+      display: none;
+  }
+>>>>>>> 151e216ce1a27fd6e59496837e07e70e6952d867
 }
