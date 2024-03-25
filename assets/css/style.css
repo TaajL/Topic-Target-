@@ -51,6 +51,8 @@ button:hover {
 }
 
 .card-box2 {
+  max-height: 500px;
+  min-height: 300px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -112,11 +114,14 @@ button:hover {
 }
 
 #youtubeResultBox,
+#wikiResultBox {
+  display: grid;
+}
+
+#youtubeResultBox,
 #wikiResultBox,
 #youtube-box,
 #wiki-box {
-  display: grid;
-  /* flex-wrap: wrap; */
   width: 49%;
   height: auto;
   border: 3px solid black;
@@ -124,4 +129,10 @@ button:hover {
   border-radius: 0.5rem;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#youtube-box,
+#wiki-box {
+  display: flex;
+  flex-direction: column;
 }
